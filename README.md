@@ -11,7 +11,7 @@ The data was sourced from a CSV file stored on an AWS S3 bucket. Utilizing PySpa
 ### SQL Queries and Results
 
   -1. **Average Price for Four-Bedroom Houses Each Year:**
-    python ```
+    ```python
     spark.sql("""
     SELECT
       YEAR(date),
